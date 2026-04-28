@@ -303,6 +303,32 @@ const GeneralArticle = () => (
             Əgər kimsə şirkətin gələcəyinə inanmırsa, öz payını satır və qiymət enir.
           </p>
         </div>
+
+        <div className="space-y-5 md:space-y-6 pt-6 md:pt-10">
+
+  <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-gray-900 tracking-tight">
+    Pul necə qazanılır?
+  </h2>
+
+  <p>
+    İki əsas yol var:
+    <span className="text-black font-black">
+      {' '}(1) ucuz alıb baha satmaq
+    </span>
+    <br />
+    və
+    <span className="text-black font-black">
+      {' '} (2) dividend qazanmaq
+    </span>.
+  </p>
+
+  <p>
+    Dividend o deməkdir ki, şirkət qazandığı pulun bir hissəsini
+    səhmdarlara paylayır. Yəni səhm sahibi olmaq, bəzən “kirayə gəliri”
+    kimi passiv pul qazandırır — sanki pizza dükanından müntəzəm pay almaq kimidir.
+  </p>
+
+</div>
       </div>
   
       {/* SIMULATOR */}

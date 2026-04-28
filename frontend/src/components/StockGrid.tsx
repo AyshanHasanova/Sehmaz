@@ -88,7 +88,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { stockData } from '../data/stock';
 
-const StockGrid = () => {
+const StockGrid:React.FC = () => {
   const navigate = useNavigate();
 
   // Şəkildəki ardıcıllıqla göstəriləcək simvollar
